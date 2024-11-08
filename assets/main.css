@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  border: 0;
+}
+
+header {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #9644c6;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
+
+aside {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #4d2166;
+}
+
+aside > div {
+  position: sticky;
+  top: 0;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  transition: .2s;
+}
+
+main {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #612a80;
+  text-align: center;
+}
+
+footer {
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #43155c;
+}

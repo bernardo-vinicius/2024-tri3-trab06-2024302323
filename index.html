@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <link rel="stylesheet" href="assets/main.css">
+  <link rel="stylesheet" href="assets/responsive-grid.css">
+  <script defer src="main.js" defer></script>
+</head>
+
+<body>
+  <header id="inicio">
+    <h1>Galeria das melhores coisas do mundo</h1>
+  </header>
+  <aside>
+    <div>
+        <a href="#inicio">Início</a>
+        <a href="#gremio">Fotos do Grêmio</a>
+        <a href="#undertale">Fotos de Undertale</a>
+        <a href="#rappers">Fotos de Rappers</a>
+    </div>
+  </aside>
+  <main>
+    <a name="gremio"></a>
+    <h2>Grêmio</h2>
+    <div class="galeria" data-folder="gremio" data-total="13"></div>
+
+    <a name="undertale"></a>
+    <h2>Undertale</h2>
+    <div class="galeria" data-folder="undertale" data-total="15"></div>
+
+    <a name="rappers"></a>
+    <h2>Rappers</h2>
+    <div class="galeria" data-folder="rappers" data-total="16"></div>
+  </main>
+  <footer></footer>
+
+  <dialog class="modal-fotos">
+    <div class="conteudo"></div>
+    <button class="bt-close"></button>
+    <button class="bt-prev"><<</button>
+        <button class="bt-next">>></button>
+  </dialog>
+
+</body>
+
+</html>
